@@ -1,0 +1,112 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+
+}
+a{
+	text-decoration:none;
+}
+body{
+	min-width:1000px;
+}
+.bg-orange{
+	background-color:#ff7600;}
+.line{
+	float:left;
+	height:10px;
+	border:1px solid #424242;
+	margin:10px 10px 0 10px;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lf-float{
+	float:left;
+}
+.rgt-float{
+	float:right;
+}
+.w1226-m{
+	width:1226px;
+	margin:auto;
+}
+.clear-rgt-m{
+	margin-right:0;
+}
+.margin-bom{
+	margin-bottom:14px;
+}
+.pt-margin{
+	margin-right:35px;
+}
+.display-block{
+	display:block;
+}
+.margin-rgt{
+	margin-right:10px;
+}
+.m-rgt-15{
+	margin-right:15px;
+}
+/********banner下的li边框用伪元素******/
+ .rgt-border:after{
+	content:"";
+	display:block;
+	position:absolute;
+	right:-3px;
+	top:10px;
+	width:2px;
+	height:65px;
+	background:#665e57;
+  }
+   .btm-border:before{
+	content:"";
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:10px;
+	width:65px;
+	height:2px;
+	background:#665e57;
+  }
+.h2-text{
+	font-weight:200;
+	font-size:22px;
+	line-height:58px;
+}
+/***不同上边框的颜色****/
+.border-top-org{
+	border-top:1px solid #ff6709;
+}
+.border-top-gre{
+	border-top:1px solid #83c44e;
+}
+.border-top-blue{
+	border-top:1px solid #2196f3;
+}
+.border-top-red{
+	border-top:1px solid #e53935;
+}
+.border-top-sgre{
+	border-top:1px solid #00c0a5;
+}
+.hover-shadow:hover{
+	top:-5px;
+	box-shadow:0 5px 20px 0 #ccc;
+}
+.border-rgt{
+	border-right:1px solid #ccc;
+}
+/*
+-webkit-transition:3s ease;
+-moz-transition:3s ease;
+-ms-transition:3s ease;
+-o-transition:3s ease;
+transition:3s ease*/
+/*******/
